@@ -1,0 +1,4 @@
+{
+    "dburl": "sqlite:///${phovea_server.absoluteDataDir}/mydb.sqlite",
+    "statement_timeout": null
+}

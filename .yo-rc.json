@@ -1,0 +1,55 @@
+{
+  "generator-phovea": {
+    "sextensions": [
+      {
+        "type": "namespace",
+        "id": "hello_world",
+        "module": "hello_world",
+        "extras": {
+          "namespace": "/api/hello_world"
+        }
+      },
+      {
+        "type": "tdp-sql-database-definition",
+        "id": "mydb",
+        "module": "mydb",
+        "extras": {
+          "configKey": "myserverplugin"
+        }
+      },
+      {
+        "type": "mapping_provider",
+        "id": "my_mapping_provider",
+        "module": "mymappingprovider",
+        "extras": {}
+      },
+      {
+        "type": "mapping_provider",
+        "id": "my_mapping_provider",
+        "module": "mymappingprovider",
+        "extras": {}
+      },
+      {
+        "type": "namespace",
+        "id": "hello-rest",
+        "module": "hello_rest",
+        "extras": {
+          "namespace": "/api/hello_rest"
+        }
+      }
+    ],
+    "type": "slib",
+    "modules": [
+      "tdp_core"
+    ],
+    "libraries": [],
+    "unknown": {
+      "requirements": [],
+      "dockerPackages": []
+    },
+    "name": "myserverplugin",
+    "author": "sluger",
+    "today": "Mon, 06 Nov 2017 17:56:52 GMT",
+    "githubAccount": "datavisyn"
+  }
+}
