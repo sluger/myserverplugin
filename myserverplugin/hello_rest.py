@@ -18,7 +18,7 @@ def _hello():
     'message': 'Hello World'
   })
 
-@app.route('/greet/<name:path>')
+@app.route('/greet/<path:name>')
 def _greet(name):
   lang = request.values.get('lang', 'en')
   template = ''
